@@ -290,6 +290,7 @@ body {
     max-width: 970px;
     max-height: 215px;
     display: flex;
+    margin-bottom: 60px;
 }
 
 .aboutus__content--left {
@@ -325,4 +326,14 @@ body {
 }
 .aboutus__content4 {
     margin-top: 20px;
+    
+}
+
+.aboutus__logos {
+    width: 970px;
+    height: 66px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;  
+    
 }
