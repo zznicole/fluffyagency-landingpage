@@ -338,7 +338,7 @@ body {
     
 }
 
-.sparator {
+.separator {
     width: 1170px;
     height: 1px;
     background-color: #DCE2E6;
@@ -498,4 +498,113 @@ body {
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;    
+}
+
+footer {
+    width: 100%;
+    height: 817px;
+    background-color: #11364E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contact {
+    width: 370px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.contact__h2 {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #FFFFFF;  
+    margin-top: 140px;
+}
+
+.form {
+    background-color: #11364E;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: 40px;
+}
+
+.form__label {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #FFFFFF; 
+}
+
+.form__field {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color:  #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.2; 
+    margin-top: 10px;
+    background-color: #11364E;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact__submit {
+    width: 370px;
+    background-color: #FF7F57;
+    color: #FFFFFF;
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.4;
+    text-align: center;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 36px;
+    margin-bottom: 140px;
+}
+
+.contact__submit:hover {
+   transform: scale(1.1);
+   color: rgb(231, 159, 138);
+}
+
+.copyright {
+    width: 100%;
+    height: 47px;
+    background-color: #13253A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: space-between;
+    margin-top: 240px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.copyright__text {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    color: #FFFFFF;  
+    
 }
